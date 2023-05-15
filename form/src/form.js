@@ -63,7 +63,7 @@ function Form(props) {
             case "bio":
                 setBio(e.target.value);
                 break;
-            case "emailnotif":
+            case "emailNotif":
                 setEmailNotif(emailNotif => !emailNotif);
                 break;
             default:
